@@ -45,7 +45,6 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new int[] { 10, 10, 10, 10 }, false)]
         [InlineData(new int[] { 0, 1, 0 }, true)]
         [InlineData(new int[] { }, false)]
-        [InlineData(null, false)]
         public void IsSumOfOddsOdd(IEnumerable<int> numbers, bool expected)
         {
             // Arrange
