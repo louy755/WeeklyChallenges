@@ -246,4 +246,4 @@ namespace ChallengesWithTestsMark8.Tests
             Assert.Throws<ArgumentOutOfRangeException>(actual3);
         }
     }
-}
+    }
